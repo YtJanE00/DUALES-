@@ -149,3 +149,48 @@ section{
     background-color: #be8f50;
     color: #FFF;
 }
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #304438;
+}
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: rgb(236,151,25)
+}
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    #x h2{
+        font-size: 40px;
+    }
+
+    #x .col-lg-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #about .eyy{
+        padding:40px;
+    }
+
+    #about .ngee{
+        height: 300px;
+    }
+
+    #about {
+        overflow-x: hidden;
+    }
+
+}
+
